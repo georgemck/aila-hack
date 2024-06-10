@@ -1,0 +1,6 @@
+template-file-path: rag-w-bedrock-kb-deploy.yaml
+parameters:
+  IAMUserArn: arn:aws:iam::528217753045:user/georgemck
+  AOSSCollectionName: sagemaker-kb
+  AOSSIndexName: sagemaker-readthedocs-io
+tags: {}
